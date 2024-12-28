@@ -2,7 +2,7 @@ const express = require('express');
 const taskRoutes = require('./src/routes/taskRoutes');
 const ErrorMiddleware = require('./src/middlewares/errorMiddleware');
 const app = express();
-const PORT = 4000;
+const PORT = 5000;
 
 app.use(express.json());
 
